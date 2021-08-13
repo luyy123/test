@@ -1,0 +1,423 @@
+a {
+  color: black;
+  width: 130px;
+}
+a:link {
+  text-decoration: none;
+} /* 未被访问的链接 */
+a:visited {
+  text-decoration: none;
+} /* 已被访问的链接 */
+a:hover {
+  color: #4e6ef2;
+  text-decoration: none;
+} /* 鼠标指针移动到链接上 */
+a:active {
+  text-decoration: none;
+} /* 正在被点击的链接 */
+
+/* 左边的部分 */
+.left {
+  line-height: 22px;
+  font-size: 15px;
+  text-align: left;
+  margin: 22px 0 22px 0;
+  margin-left: 30px;
+}
+/* 右边的设置和登录按钮 */
+.right {
+  position: absolute;
+  right: 0px;
+  width: 150px;
+}
+.dropdown {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  padding-right: 23px;
+}
+.dropdown-content {
+  list-style: none;
+  position: absolute;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 61px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  line-height: 30px;
+  z-index: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.box {
+  width: 650px;
+  height: 0px;
+  margin: 200px auto 100px;
+  position: relative;
+}
+input {
+  outline: none;
+  border: 2px solid #a7aab5;
+  height: 45px;
+  width: 550px;
+  box-sizing: border-box;
+  text-indent: 6px;
+  font-size: 16px;
+  border-radius: 10px 0 0 10px;
+}
+
+/* 输入框聚焦 */
+input:focus {
+  color: #000;
+  background-color: #fff;
+  border-color: #4e6ef2 !important;
+  /*height: 90px;
+    border-radius: 10px 0 10px 10px;*/
+}
+.gd {
+  color: #fff;
+  background: #38f;
+  line-height: 24px;
+  font-size: 13px;
+  text-align: center;
+  border-bottom: 1px solid #38f;
+  margin-left: 7px;
+  margin-top: 10px;
+  cursor: default;
+}
+.hot-title {
+  width: 638px;
+  position: relative;
+  margin: -23px auto 0;
+}
+.baiduhot div {
+  width: 100%;
+  /* overflow: hidden;
+  float: left;*/
+  line-height: 32px;
+}
+.baiduyixia {
+  font-size: 17px;
+}
+.title-content-title {
+  margin: 10px 0 0;
+  /*margin-top: 6px;*/
+  /*float: left;*/
+  height: 32px;
+  line-height: 32px;
+  display: flex;
+  flex-direction: row;
+}
+.title-content-title1 {
+  margin: 10px 0 0;
+  /* margin-left: 90px;
+  float: left; */
+  height: 32px;
+  line-height: 32px;
+}
+.right-hot {
+  float: right;
+  line-height: 20px;
+}
+.top1 {
+  color: #fe2d46;
+}
+.top2 {
+  color: #f60;
+}
+.top3 {
+  color: #faa90e;
+}
+.other-top {
+  background: 0 0;
+  color: #9195a3;
+}
+button {
+  height: 45px;
+  width: 100px;
+  border: none;
+  color: white;
+  box-sizing: border-box;
+  background-color: #4e6ef2;
+  position: absolute;
+  left: 550px;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+}
+.imges {
+  position: absolute;
+  top: -140px;
+  left: 180px;
+}
+.cen {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.buttom {
+  text-align: center;
+  padding-left: 30px;
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 10px;
+  background-color: #fbfbfb;
+}
+/* 点击照相机，按照图片来搜索 */
+.soutu-btn {
+  background: #fff
+    url(https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/searchbox/nicon-10750f3f7d.png)
+    no-repeat;
+  width: 24px;
+  height: 20px;
+}
+
+/* 登录按钮的下拉登录图片 */
+.settings {
+  position: relative;
+  left: 13px;
+  background-color: #4e71f2;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 12px;
+  width: 50px;
+  height: 25px;
+  display: inline-block;
+}
+.dropdown-settings {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content-settings {
+  display: none;
+  position: absolute;
+  right: -10px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-settings:hover .dropdown-content-settings {
+  display: block;
+}
+
+.search_area {
+  position: relative;
+}
+
+.soutu-btn {
+  display: block;
+  background-position: 0 -51px;
+  right: 114px;
+  margin-top: -9px;
+  background: #fff
+    url(https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/searchbox/nicon-10750f3f7d.png)
+    no-repeat;
+  width: 24px;
+  height: 20px;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  background-position: 0px -50px;
+  cursor: pointer;
+}
+
+.soutu-btn:hover {
+  background-position: 0px -74px;
+}
+
+.soutu-state-normal {
+  margin-top: 12px;
+  padding: 24px;
+  background: #fff;
+  box-shadow: 0 2px 10px 0 rgb(0 0 0 / 10%);
+  border-radius: 12px;
+  font-size: 13px;
+  color: #9195a3;
+  position: absolute;
+  left: 0;
+  top: 40px;
+  width: 100%;
+  display: none;
+  z-index: 101;
+}
+
+.soutu-drop {
+  border: 1px dashed #d7d9e0;
+  border-radius: 2px;
+  background: #fff;
+  height: 58px;
+  padding: 0;
+  line-height: 59px;
+  text-align: center;
+  margin-bottom: 16px;
+  background-size: contain;
+}
+
+.upload-wrap {
+  background: #4e71f2;
+  border-radius: 6px;
+  width: 80px;
+  height: 30px;
+  line-height: 31px;
+  text-align: center;
+  color: floralwhite;
+  font-size: 13px;
+  border: 0;
+  position: relative;
+  margin: 0 auto;
+}
+
+.upload-pic {
+  margin-left: 0;
+  left: 0;
+  top: 0;
+  position: absolute;
+  font-size: 0;
+  width: 100%;
+  height: 100%;
+  outline: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  margin-left: -18px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.soutu-drop-tip {
+  display: block;
+  font-size: 16px;
+  color: #999;
+}
+.soutu-env-new .soutu-layer .upload-wrap {
+  background: #4e71f2;
+  border-radius: 6px;
+  width: 80px;
+  height: 30px;
+  line-height: 31px;
+  text-align: center;
+  color: #fff;
+  font-size: 13px;
+  border: 0;
+}
+
+.soutu-close-new {
+  position: absolute;
+  margin-top: -39px;
+  padding: 35px;
+  left: 630px;
+  cursor: pointer;
+}
+
+.s-top-more-btn {
+  display: inline-block;
+  padding-bottom: 19px;
+  text-align: center;
+}
+
+.mnav {
+  margin-right: 31px;
+  margin-top: 5px;
+  display: inline-block;
+  position: relative;
+}
+
+.s-top-more-btn:hover .s-top-more {
+  display: block;
+}
+.s-top-more {
+  display: none;
+  position: absolute;
+  top: 45px;
+  right: -56px;
+  width: 368px;
+  height: 280px;
+  background: #fff;
+  box-shadow: 0 2px 10px 0 rgb(0 0 0 / 15%);
+  border-radius: 12px;
+}
+.s-top-more .s-top-more-content.row-1 {
+  padding-top: 1px;
+}
+.clearfix {
+  zoom: 1;
+}
+.s-top-more .s-top-more-content.row-2 {
+  padding-top: 1px;
+}
+
+.s-top-more .s-top-tomore {
+  margin-top: 10px;
+}
+
+div {
+  display: block;
+}
+
+.clearfix:after {
+  content: "\20";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.s-top-more .s-top-more-content .s-top-more-title {
+  width: 76px;
+  text-align: center;
+  margin-top: -1px;
+}
+
+.s-top-more .s-top-more-content a {
+  width: 92px;
+  height: 119px;
+  float: left;
+}
+
+.s-top-more .s-top-tomore .c-color-gray2 .c-font-normal {
+  margin-top: 7px;
+  text-align: center;
+}
+
+.mnav:hover .s-bri,
+.s-top-left a:hover {
+  color: #315efb;
+  text-decoration: none;
+}
+
+.hot-refresh {
+  width: 76px;
+  float: right;
+  cursor: pointer;
+}
+
+.buttonChange {
+  height: 29px;
+  width: 61px;
+  border: none;
+  color: firebrick;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  position: absolute;
+  right: 0;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+  top: 0px;
+}
+
+.five {
+  /* display: block; */
+  height: 29px;
+  width: 200px;
+}
+
+.baidu-hot {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
